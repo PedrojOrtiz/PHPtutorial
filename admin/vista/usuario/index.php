@@ -40,7 +40,7 @@
                     echo "<td>" . $row['usu_correo'] . "</td>";     
                     echo "<td>" . $row['usu_fecha_nacimiento'] . "</td>";                                              
                     echo "<td><a href=eliminar.php?id=$idActual><p>Eliminar</p></a></td>";
-                    echo "<td><a href=modificar.php><p>Modificar</p></a></td>";
+                    echo "<td><a href=modificar.php?id=$idActual><p>Modificar</p></a></td>";
                     echo "<td><a href=cambiar_contrasena.php><p>Cambiar Contraseña</p></a></td>";
                     echo "</tr>";
                 }
